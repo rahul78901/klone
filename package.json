@@ -1,16 +1,21 @@
 {
-  "name": "store",
+  "name": "klone",
   "version": "1.0.0",
-  "description": "",
+  "description": "state management for vanila js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jsdom": "^21.1.4",
     "typescript": "^5.1.6",
     "vitest": "^0.34.1"
-  }
+  },
+  "dependencies": {
+    "jsdom": "^22.1.0"
+  },
+  "packageManager": "pnpm@8.9.0^"
 }
